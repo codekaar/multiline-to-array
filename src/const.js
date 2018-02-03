@@ -1,0 +1,11 @@
+const MULTILINE = 'MULTILINE';
+const PHP_ARRAY = 'PHP_ARRAY';
+const JAVASCRIPT_ARRAY = 'JAVASCRIPT_ARRAY';
+
+const CONST = {
+    MULTILINE,
+    PHP_ARRAY,
+    JAVASCRIPT_ARRAY,
+};
+
+module.exports = CONST;

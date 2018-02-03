@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Array Converter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="input-output">
+        <div class="input-wrapper">
+            <div>Input</div>
+            <div>
+                <select id="input-type">
+                    <option value="MULTILINE">Multiline</option>
+                </select>
+            </div>
+            <textarea id="input" class="input" rows="15" placeholder="Paste the text here"></textarea>
+            <div id="error" class="error"></div>
+        </div>
+        <div class="output-wrapper">
+            <div>Output</div>
+            <div>
+                <select id="output-type">
+                    <option value="PHP_ARRAY">PHP Array</option>
+                    <option value="JAVASCRIPT_ARRAY">Javascript Array</option>
+                </select>
+            </div>
+            <pre id="output" class="output"></pre>
+            <!-- <div id="output" class="output"></div> -->
+        </div>
+    </div>
+</div>
+
+<script src="bin/app.js"></script>
+
+</body>
+</html>

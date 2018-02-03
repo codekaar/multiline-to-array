@@ -1,0 +1,16 @@
+{
+  "name": "multiline_to_array",
+  "version": "1.0.0",
+  "description": "Converts multi-line text to array of programming languages",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack src/index.js bin/app.js -d --watch",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "webpack": "^3.10.0"
+  }
+}
