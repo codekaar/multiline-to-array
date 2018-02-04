@@ -1,6 +1,6 @@
 {
   "name": "multiline_to_array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts multi-line text to array of programming languages",
   "main": "index.js",
   "scripts": {
